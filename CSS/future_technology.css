@@ -1,0 +1,590 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style-type: none;
+    /*去除列表上的标识*/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#body {
+    width: 1519px;
+    /* height: 1000px; */
+    font-family: SimSun;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 auto;
+    background-image: linear-gradient(#eeeeee 0, #bbbbbb 100%);
+    /* background-color: rgb(20, 189, 245); */
+    /* border: 1px solid red;
+    background: url("../IMG/background-img7.png") no-repeat;
+    background-size: 1534px; */
+}
+
+
+/*
+    顶部显示
+*/
+
+#upper {
+    height: 100px;
+    /* border: 1px solid red; */
+}
+
+
+/* 左半部分 */
+
+#upper .upper-left {
+    width: 500px;
+    height: 100px;
+    margin-left: 100px;
+    color: #888888;
+    /* border: 1px solid blue; */
+}
+
+#upper .upper-left img {
+    height: 100%;
+}
+
+
+/* #upper .upper-left p{
+    line-height: 100px;
+} */
+
+
+/* 右半部分 */
+
+#upper .upper-right {
+    width: 300px;
+    height: 100px;
+    margin-right: 30px;
+    /* border: 1px solid blue; */
+}
+
+
+/* 登录和注册模块 */
+
+#upper .upper-right .ur-top {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background-image: linear-gradient(to right, #cfcfcf 0, #919191 100%);
+    /* background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%); */
+    border-radius: 20px;
+    margin: 17px auto;
+    margin-bottom: 8px;
+}
+
+#upper .back {
+    width: 70px;
+    text-align: center;
+    transition: all .5s;
+}
+
+#upper .back a {
+    display: inline-block;
+    color: white;
+    width: 40px;
+    height: 40px;
+    transition: all .5s;
+}
+
+#upper .denglu {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#upper .zhuce {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#upper .ur-top span {
+    width: 10px;
+    text-align: center;
+}
+
+#upper .back:hover {
+    /* background-image: linear-gradient(to right,#ff950a 0,#c2b7af 100%); */
+    background-image: linear-gradient(to right, #e4e0de 0, #a4a0ae 100%);
+}
+
+#upper .back:hover a {
+    color: #333;
+}
+
+
+/* 电话模块 */
+
+#upper .upper-right .ur-bottom {
+    height: 25px;
+    line-height: 25px;
+    color: #888888;
+}
+
+#upper .ur-bottom span {
+    display: inline-block;
+    width: 24px;
+    height: 25px;
+    background: url("./IMG/logo3-1.png") no-repeat -373px -21px;
+    margin-left: 25px;
+}
+
+
+/*
+    导航栏部分
+*/
+
+#nav {
+    height: 50px;
+    /* border: 1px solid blue; */
+    background-image: linear-gradient(#cccccc 25%, #a3a3a3 100%);
+}
+
+#nav>ul {
+    width: 1419px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    height: 100%;
+}
+
+#nav>ul>li {
+    width: 80px;
+    height: 24px;
+    font-size: 18px;
+    float: left;
+    padding: 13px 29px;
+    border-right: 1px solid #a3a3a3;
+}
+
+#nav>ul>li:hover {
+    background-image: linear-gradient(to right, #e4e0de 0, #a4a0ae 100%);
+}
+
+#nav>ul>li:hover a {
+    color: #fff;
+}
+
+#nav>ul>li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    transition: all .3s;
+}
+
+#nav .nav-li {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 24px;
+}
+
+#nav .no-border-right {
+    border-right: none;
+}
+
+
+/*
+    轮播图部分
+*/
+
+#banner {
+    width: 1409px;
+    height: 570px;
+    margin: 0 auto;
+}
+
+
+/*
+    新闻页部分
+*/
+
+
+/* 框架调节 */
+
+#product {
+    height: 400px;
+    width: 1409px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    color: #444444;
+    background-image: linear-gradient(#cdcdcd 20%, #f9f9f9 100%);
+}
+
+.pro {
+    width: 400px;
+    height: 100%;
+    float: left;
+}
+
+#product .company {
+    width: 569px;
+}
+
+.ptop-css {
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(#cccccc 10%, #999999 100%);
+}
+
+.pbody-css {
+    width: 100%;
+    height: 320px;
+    background-image: linear-gradient(#a9a9a9 0, #e3e3e3 85%);
+}
+
+
+/* 内容细节调节 */
+
+
+/* 新闻部分 */
+
+#product .news {
+    margin-right: 20px;
+}
+
+#product .contact {
+    margin-left: 20px;
+}
+
+#product .ptop-css {
+    line-height: 80px;
+}
+
+#product .ptop-css span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    margin-top: 30px;
+    margin-left: 25px;
+    background: url("./IMG/logo3.png") no-repeat -193px -60px;
+}
+
+#product .ptop-css h2 {
+    margin-left: 5px;
+}
+
+
+/* 下半部分 */
+
+#product .img1 {
+    width: 240px;
+    height: 150px;
+    padding: 10px 0 20px 70px;
+}
+
+#product .img1 span {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: url("./IMG/news1.png");
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+
+#product .words {
+    margin-left: 40px;
+}
+
+#product .words span {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    top: 2px;
+}
+
+.logo2-1 {
+    background: url("./IMG/logo2.png") no-repeat -440px -29px;
+}
+
+.logo2-2 {
+    background: url("./IMG/logo2-1.png") no-repeat -440px -29px;
+}
+
+.logo2-3 {
+    background: url("./IMG/logo2-2.png") no-repeat -440px -29px;
+}
+
+.logo2-4 {
+    background: url("./IMG/logo2-3.png") no-repeat -440px -29px;
+}
+
+#product .words a {
+    display: inline-block;
+    height: 100%;
+}
+
+#product .words .content {
+    height: 24px;
+    width: 290px;
+    border-bottom: 1px dashed #666;
+    margin-bottom: 10px;
+    transition: all .3s;
+}
+
+#product .words .content:hover a {
+    color: #f40;
+}
+
+#product .words .content:hover {
+    border-color: #f40;
+    transform: translateY(-5px);
+}
+
+#product .news-body {
+    position: relative;
+}
+
+#product .more {
+    position: absolute;
+    right: 6px;
+    bottom: 10px;
+}
+
+#product .more:hover a {
+    color: #f40;
+}
+
+#product .more:hover {
+    border-bottom: 1px dashed #f40;
+}
+
+
+/* 公司动态部分 */
+
+#product .company-body {
+    position: relative;
+}
+
+#product .company-body .words {
+    margin-left: 60px;
+}
+
+#product .company-body .content {
+    width: 400px;
+}
+
+#product .img2 {
+    width: 400px;
+    height: 150px;
+    padding: 10px 0 20px 70px;
+}
+
+#product .img2 span {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: url("./IMG/company1.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+
+/* 公司信息部分 */
+
+#product .contact-body {
+    position: relative;
+}
+
+#product .con-top {
+    width: 350px;
+    height: 120px;
+    padding: 10px 0 0 0;
+    margin: 0 0 15px 20px;
+    color: #666;
+    border-bottom: 1px dashed #999;
+}
+
+#product .con-top span {
+    display: inline-block;
+    width: 115px;
+    height: 115px;
+    background: url("./IMG/phone.png") no-repeat;
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+
+#product .con-top>div {
+    margin: 38px 0 0 10px;
+}
+
+#product .con-bottom {
+    margin-left: 50px;
+}
+
+.con-bottom>ul>li {
+    height: 28px;
+    color: #666;
+}
+
+
+/*
+    产品展示部分
+*/
+
+#show {
+    width: 1409px;
+    height: 300px;
+    margin: 0 auto;
+    color: #444;
+    padding-bottom: 20px;
+    background-image: linear-gradient(#cdcdcd 20%, #f9f9f9 100%);
+}
+
+.vedio {
+    width: 400px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.show-pro {
+    width: 989px;
+    height: 100%;
+}
+
+.stop-css {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-image: linear-gradient(#cccccc 10%, #999999 100%);
+}
+
+.sbody-css {
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(#a9a9a9 0, #e3e3e3 85%);
+}
+
+
+/* 顶部文字修饰 */
+
+#show .stop-css span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    margin-top: 17px;
+    margin-left: 25px;
+    background: url("./IMG/logo3.png") no-repeat -193px -60px;
+}
+
+#show .stop-css h2 {
+    margin-left: 5px;
+}
+
+
+/* vedio主体内容部分 */
+
+#show .address {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+#show .address img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 产品展示主体内容部分 */
+
+#show .show-center {
+    height: 190px;
+    width: 969px;
+    padding: 35px 15px;
+}
+
+#show .show-center>div {
+    height: 100%;
+    margin-right: 20px;
+}
+
+#show .show-center img {
+    height: 100%;
+    width: 303px;
+}
+
+
+/*
+    页脚部分
+*/
+
+#footer {
+    height: 50px;
+    width: 1409px;
+    margin: 0 auto;
+    /* background-image: linear-gradient(#cdcdcd 20%, #f9f9f9 100%); */
+}
+
+
+/* 左半部分 */
+
+#footer .ft-left {
+    width: 600px;
+    height: 35px;
+    margin-top: 7px;
+    margin-left: 40px;
+    line-height: 20px;
+}
+
+#footer .ft-left span {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: -4px;
+    background: url("./IMG/logo3-2.png") no-repeat -550px -220px;
+}
+
+#footer .toleft {
+    margin-left: -22px;
+}
+
+
+/* 右半部分 */
+
+#footer .ft-right {
+    margin-top: 7px;
+    width: 450px;
+    line-height: 20px;
+}
+
+#footer .toright {
+    width: 200px;
+    margin-left: 120px;
+}
+
+#footer .pe .email {
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    margin-left: 20px;
+    background: url("./IMG/logo3-2.png") no-repeat -23px -62px;
+}
+
+#footer .pe .ph {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: -3px;
+    background: url("./IMG/logo3-2.png") no-repeat -373px -21px;
+}
